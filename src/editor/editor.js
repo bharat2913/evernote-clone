@@ -54,7 +54,6 @@ class EditorComponent extends React.Component {
                     value = {this.state.text} 
                     onChange={this.updateBody}>
                 </ReactQuill>
-                
             </div>
         );
     }
