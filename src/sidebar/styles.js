@@ -4,7 +4,7 @@ const styles = theme => ({
       height: 'calc(100% - 35px)',
       position: 'absolute',
       left: '0',
-      width: '300px',
+      width: '35%',
       boxShadow: '0px 0px 2px black'
     },
     newChatBtn: {
@@ -19,17 +19,17 @@ const styles = theme => ({
     newNoteBtn: {
       width: '100%',
       height: '35px',
-      borderBottom: '1px solid black',
+      borderBottom: '2px solid #DB2777',
       borderRadius: '0px',
-      backgroundColor: '#29487d',
+      backgroundColor: '#9D174D',
       color: 'white',
       '&:hover': {
-        backgroundColor: '#88a2ce'
+        backgroundColor: '#DB2777'
       }
     },
     sidebarContainer: {
       marginTop: '0px',
-      width: '300px',
+      width: '30%',
       height: '100%',
       boxSizing: 'border-box',
       float: 'left',

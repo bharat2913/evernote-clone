@@ -4,7 +4,7 @@ const styles = theme => ({
       height: 'calc(100% - 35px)',
       position: 'absolute',
       left: '0',
-      width: '300px',
+      width: '100%',
       boxShadow: '0px 0px 2px black'
     },
     titleInput: {
@@ -13,14 +13,14 @@ const styles = theme => ({
       border: 'none',
       padding: '5px',
       fontSize: '24px',
-      width: 'calc(100% - 300px)',
-      backgroundColor: '#29487d',
+      width: '70%',
+      backgroundColor: '#701A75',
       color: 'white',
       paddingLeft: '50px'
     },
     editIcon: {
       position: 'absolute',
-      left: '310px',
+      left: '32%',
       top: '12px',
       color: 'white',
       width: '10',
